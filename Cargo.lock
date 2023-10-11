@@ -51,7 +51,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "bdeps"
+name = "cargo-bdeps"
 version = "0.1.0"
 dependencies = [
  "cargo_toml",

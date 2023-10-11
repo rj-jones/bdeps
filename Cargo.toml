@@ -1,7 +1,10 @@
 [package]
-name = "bdeps"
+name = "cargo-bdeps"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/rj-jones/bdeps"
+categories = ["development-tools", "development-tools::cargo-plugins"]
+keywords = ["cargo-subcommand", "cargo", "cli", "crates", "dependencies"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
