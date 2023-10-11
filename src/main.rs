@@ -20,7 +20,7 @@ fn main() -> Result<(), String> {
     for (name, dep) in dependencies {
         match dep {
             toml::Dependency::Simple(version) => {
-                println!("{}:{}", name, version);
+                println!("Building {}:{}", name, version);
                 let _ = command::execute_command(
                     &mut Command::new("cargo")
                         .arg("build")
@@ -33,7 +33,7 @@ fn main() -> Result<(), String> {
                 let version = details
                     .version
                     .expect(format!("no version specified for {}", name).as_str());
-                println!("{}:{}", name, version);
+                println!("Building {}:{}", name, version);
                 let _ = command::execute_command(
                     &mut Command::new("cargo")
                         .arg("build")
