@@ -1,7 +1,7 @@
 pub use clap::Parser;
 
 #[derive(Parser)]
-#[clap(name = "cargo build-deps-updated")]
+#[clap(name = "bdeps", version)]
 pub struct Opts {
     #[clap(long, default_value = "false")]
     pub release: bool,
