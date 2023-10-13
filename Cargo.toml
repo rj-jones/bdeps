@@ -9,5 +9,6 @@ keywords = ["cargo-subcommand", "cargo", "cli", "crates", "dependencies"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+cargo-lock = "9.0.0"
 cargo_toml = "0.16.3"
 clap = { version = "4.4.6", features = ["derive"] }
